@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-content {
+  width: 85%;
+  display: block;
+}
+
+

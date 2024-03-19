@@ -1,0 +1,27 @@
+.audio {
+    display: flex;
+}
+
+.audio-name-box {
+    margin: 8px;
+    width: 150px;
+    height: 25px;
+    max-width: 150px;
+    max-height: 25px;
+    overflow: hidden;
+}
+
+.audio-name {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.audio-button-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.audio-button {
+    height: 25px;
+}

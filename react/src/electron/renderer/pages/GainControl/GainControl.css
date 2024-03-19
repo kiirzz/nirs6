@@ -1,0 +1,33 @@
+.gain {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+}
+
+.gain-input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gain-input-title {
+    margin-bottom: 12px;
+}
+
+.gain-index {
+    height: 25px;
+}
+  
+.gain-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gain-input input[type="range"] {
+    writing-mode: bt-lr;
+    -webkit-appearance: slider-vertical;
+    appearance: slider-vertical;
+    width: 20px;
+    height: 150px;
+    margin: 0;
+}

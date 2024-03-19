@@ -1,0 +1,42 @@
+.control-button-box {
+    display: flex;
+    gap: 39vw;
+    margin: 10px 0;
+}
+
+.volume-box {
+    display: flex;
+    align-items: center;
+}
+
+.volume-input {
+    margin: 0 0 0 10px;
+}
+
+.audio {
+    display: flex;
+}
+
+.audio-name-box {
+    margin: 8px;
+    width: 150px;
+    height: 25px;
+    max-width: 150px;
+    max-height: 25px;
+    overflow: hidden;
+}
+
+.audio-name {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.audio-button-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.audio-button {
+    height: 25px;
+}
